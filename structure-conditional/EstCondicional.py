@@ -256,3 +256,4 @@ def costoestacionamiento():
     tarifapago=(2*5)+(3*4)+(5*3)+(horas-10)*0.20
   print("El costo a cobrar es:", tarifapago)
 #costoestacionamiento()
+
