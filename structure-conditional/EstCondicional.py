@@ -150,7 +150,6 @@ def diasemana():
 
 #ejercicio 3.16
 def bonoprofesor():
-<<<<<<< HEAD
   print("el bono del profesor de acuerdo a su puntuacion")
   #datos de dentrada
   puntuacion=int(input("ingrese puntos obtenidos: "))
@@ -161,22 +160,6 @@ def bonoprofesor():
     print("el salario minimo que recibira de bono es: 2")
   elif puntuacion>=151:
     print("el salario minimo que recibira de bono es: 3")
-=======
-  print("el bono del profesor segun su esfuerzo")
-  bonopuntosprofesor = 0.00
-  #datos de entrada
-  puntoobtenido=int(input("ingrese el punto obtenido: "))
-  #proceso
-  if 0<=puntoobtenido<=100:
-    #salario minimo es 900 soles
-    bonopuntosprofesor = 900*1
-  elif 101<=puntoobtenido<=150:
-    bonopuntosprofesor = 900*2
-  else:
-    bonopuntosprofesor = 900*3
-    #datos de salida
-  print("el bono a reibir es:", bonopuntosprofesor)
->>>>>>> 342f28222b6f264ac817fe9c3a904cffcbab3df3
 #bonoprofesor()
 
 #ejercicio 3.18
@@ -255,7 +238,21 @@ def viajedeestudios():
   elif cantdalumnos<20:
     print("el costo del pasaje por alumno sera de 70 dolares")
 #viajedeestudios()
-<<<<<<< HEAD
-=======
 
->>>>>>> 342f28222b6f264ac817fe9c3a904cffcbab3df3
+#Ejercicio 3.4
+def costoestacionamiento():
+  print("el costo del estacionamiento sera")
+  #datos de dentrada
+  tarifapago=0.00
+  horas=int(input("ingrese horas en estacionamiento: "))
+  #proceso  
+  if horas>0 and horas<=2:
+    tarifapago=horas*5
+  elif horas>2 and horas<=5:
+    tarifapago=(2*5)+(horas-2)*4
+  elif horas>5 and horas<=10:
+    tarifapago=(2*5)+(3*4)+(horas-5)*3
+  else:
+    tarifapago=(2*5)+(3*4)+(5*3)+(horas-10)*0.20
+  print("El costo a cobrar es:", tarifapago)
+#costoestacionamiento()
