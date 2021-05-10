@@ -58,7 +58,7 @@ def vacunacovid19IYMM():
       TvacunaIYMM="A"
     #datos de salida
   print("el tipo de vacuna que la persona debe recibir es: ", TvacunaIYMM)
-vacunacovid19IYMM()
+#vacunacovid19IYMM()
 
 def operacionaritmeticaIYMM():
   print("operaciones aritmeticas")
