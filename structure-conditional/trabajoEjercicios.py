@@ -1,34 +1,3 @@
-def EstCondicional01():
-  #Definir variables y otros
-  print("Ejemplo estructura Condicional en Python")
-  montoP=0
-  #Datos de entrada
-  cantidadX=int(input("Ingrese la cantidad de lapices:"))
-  #Proceso
-  if cantidadX>=1000:
-    montoP=cantidadX*0.80
-  else:
-    montoP=cantidadX*0.90
-  #Datos de salida
-  print("El monto a pagar es:", montoP)
-#EstCondicional01()
-def EstCondicional02():
-  #Definir variables y otros
-  print("Ejercicio 02 Est. Condicional")
-  montoP=0
-  #Datos de entrada
-  cantidadX=int(input("Ingrese la cantidad personas invitadas:"))
-  #Proceso
-  if cantidadX<200:
-    montoP=cantidadX*95
-  elif cantidadX>200 and cantidadX<=300:
-    montoP=cantidadX*85
-  else:
-    montoP=cantidadX*75
-  #Datos de salida
-  print("La cantidad a pagar es:", montoP)
-#EstCondicional02()
-
 #ejercicio 3.1
 def votoElecciones():
   print("Como saber si puedes votar por tu edad")
@@ -151,20 +120,15 @@ def diasemana():
 #ejercicio 3.16
 def bonoprofesor():
   print("el bono del profesor de acuerdo a su puntuacion")
-  #variables
-  sueldobono = 0.00
   #datos de dentrada
   puntuacion=int(input("ingrese puntos obtenidos: "))
-  SMin=float(input("ingrese el salario minimo: "))
   #proceso
   if puntuacion>=0 and puntuacion<=100:
-    sueldobono=1*SMin
+    print("el salario minimo que recibira de bono es: 1")
   elif puntuacion>=101 and puntuacion<=150:
-    sueldobono=2*SMin
+    print("el salario minimo que recibira de bono es: 2")
   elif puntuacion>=151:
-    sueldobono=3*SMin
-  #datos de salida
-  print("el sueldo de bono que percibira es:", sueldobono)
+    print("el salario minimo que recibira de bono es: 3")
 #bonoprofesor()
 
 #ejercicio 3.18
@@ -185,26 +149,6 @@ def bononavideño():
   #datos de salida
   print("el bono que recibira es: ", bonoquerecibira)
 #bononavideño()
-
-#ejercicio 3.17
-def  paquetecompra():
-  print("el paque que puede comprar es")
-  #Definir Variables
-  paquetecomp = ""
-  #Datos de entrada
-  sueldo=float(input("Ingrese el sueldo que recibe en diciembre: "))
-  #Proceso
-  if sueldo>=50000:
-    paquetecomp="Paquete A"
-  elif  sueldo>=20000 and sueldo<50000:
-    paquetecomp="Paquete B"
-  elif  sueldo>=10000 and sueldo<20000:
-    paquetecomp="Paquete C"
-  else:
-    paquetecomp="Paquete D"
-  #Datos de salida
-  print ("La persona comprara el:", paquetecomp)
-paquetecompra()
 
 #ejercicio 3.3
 def regalo14defebrero():
@@ -280,5 +224,5 @@ def costoestacionamiento():
   else:
     tarifapago=(2*5)+(3*4)+(5*3)+(horas-10)*0.20
   print("El costo a cobrar es:", tarifapago)
-costoestacionamiento()
+#costoestacionamiento()
 
