@@ -89,6 +89,8 @@ def operacionaritmeticaIYMM():
 #ejercicio 5
 def algoritmoespecialIYMM():
   print("ejercicio que quiero resolver")
+  #variable
+  NumEjercicio = 0
   #datos de entrada
   NumEjercicio=int(input("ingrese el numero de ejercicio que quieras realizar: "))
   if NumEjercicio>=1 and NumEjercicio<=4:
@@ -96,7 +98,7 @@ def algoritmoespecialIYMM():
       def notafinalIYMM():
         print("la nota final es")
         #variable
-        notafinalIYMM = 0
+        notafinalIYMM = 0.00
         #datos de entrada
         U1=float(input("ingrese nota de la primera unidad: "))
         U2=float(input("ingrese nota de la segunda unidad: "))
@@ -176,4 +178,5 @@ def algoritmoespecialIYMM():
         #datos de salida
         print("el resultado es: ",resultadoIYMM)
       operacionaritmeticaIYMM()
+  print("solo hay 4 ejercicios intente de nuevo")
 algoritmoespecialIYMM()
