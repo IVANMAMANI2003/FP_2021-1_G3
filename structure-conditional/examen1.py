@@ -45,7 +45,7 @@ def vacunacovid19IYMM():
   M = "MASCULINO"
   #datos de entrada
   edad=int(input("ingrese la edad de la persona: "))
-  sexo= input("ingrese el sexo de la persona: ")
+  sexo= input("ingrese el sexo de la persona: ").upper()
   #proceso
   if sexo=='F' or sexo=='M':
     if edad>=70 and sexo=='F' or sexo=='M':
@@ -139,7 +139,7 @@ def algoritmoespecialIYMM():
         M = "MASCULINO"
         #datos de entrada
         edad=int(input("ingrese la edad de la persona: "))
-        sexo= input("ingrese el sexo de la persona: ")
+        sexo= input("ingrese el sexo de la persona: ").upper()
         #proceso
         if sexo=='F' or sexo=='M':
           if edad>=70 and sexo=='F' or sexo=='M':
@@ -178,5 +178,6 @@ def algoritmoespecialIYMM():
         #datos de salida
         print("el resultado es: ",resultadoIYMM)
       operacionaritmeticaIYMM()
-  print("solo hay 4 ejercicios intente de nuevo")
-algoritmoespecialIYMM()
+  else:
+    print("solo hay 4 ejercicios")
+#algoritmoespecialIYMM()

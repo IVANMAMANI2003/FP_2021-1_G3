@@ -218,10 +218,10 @@ def costoestacionamiento():
   if horas>0 and horas<=2:
     tarifapago=horas*5
   elif horas>2 and horas<=5:
-    tarifapago=(2*5)+(horas-2)*4
+    tarifapago=horas*4
   elif horas>5 and horas<=10:
-    tarifapago=(2*5)+(3*4)+(horas-5)*3
+    tarifapago=horas*3
   else:
-    tarifapago=(2*5)+(3*4)+(5*3)+(horas-10)*0.20
+    tarifapago=horas*2
   print("El costo a cobrar es:", tarifapago)
-#costoestacionamiento()
+costoestacionamiento()
