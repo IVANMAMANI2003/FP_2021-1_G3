@@ -85,7 +85,7 @@ public class ejemplosEjrProfe {
     public static void main(String[] args) {
         //contarNumerosPoNeCe();
         //contarNumerosNegPosCero();
-        pagoHamburgesas();
+        //pagoHamburgesas();
 
     }
 }
