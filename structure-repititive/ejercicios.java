@@ -493,7 +493,7 @@ public class ejercicios {
         System.out.println("ademas el monto total es:"+montototal+"pesos");
     }
     public static void main(String[] args) {
-        salarioprofesorWHILE();
+        //salarioprofesorWHILE();
         //pagoHamburgesasDOWHILE();
         //contarNumerosPosNegCer();
         //numeroFocoColor();
